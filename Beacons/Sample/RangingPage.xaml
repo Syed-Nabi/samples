@@ -17,7 +17,7 @@
             <StackLayout IsVisible="{Binding IsRegionSet}">
                 <Label Text="{Binding Uuid, StringFormat='UUID: {0}'}" />
                 <Label Text="{Binding Major, StringFormat='Major: {0}'}" IsVisible="{Binding IsMajorSet}" />
-                <Label Text="{Binding Uuid, StringFormat='Minor: {0}'}" IsVisible="{Binding IsMinorSet}" />
+                <Label Text="{Binding Minor, StringFormat='Minor: {0}'}" IsVisible="{Binding IsMinorSet}" />
             </StackLayout>
 
             <ListView ItemsSource="{Binding Beacons}">
